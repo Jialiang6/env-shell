@@ -16,7 +16,7 @@ EOF
 # See other valid sources: <https://blog.csdn.net/whatday/article/details/105532784>
 
 # dependency and vim
-apt update && apt install -y libtinfo5 --allow-remove-essential
+apt update && apt install -y libtinfo5
 apt-get -y install vim
 
 # up down left right backspace
