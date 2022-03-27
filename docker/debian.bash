@@ -20,7 +20,7 @@ apt update && apt install -y libtinfo5
 apt-get -y install vim
 
 # up down left right backspace
-apt-get install ncurses-base
+# apt-get install ncurses-base
 
 # backspace
 cat >> ~/.profile << EOF
