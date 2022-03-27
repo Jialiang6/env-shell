@@ -16,11 +16,11 @@ EOF
 # See other valid sources: <https://blog.csdn.net/whatday/article/details/105532784>
 
 # dependency and vim
-apt update && apt install -y libtinfo5
+apt update && apt install -y libtinfo5 --allow-remove-essential
 apt-get -y install vim
 
 # up down left right backspace
-# apt-get install ncurses-base
+apt-get install ncurses-base
 
 # backspace
 cat >> ~/.profile << EOF
