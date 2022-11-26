@@ -16,7 +16,7 @@ deb-src http://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe 
 deb-src http://mirrors.163.com/ubuntu/ bionic-backports main restricted universe multiverse
 EOF
 # See other valid sources: <https://blog.csdn.net/whatday/article/details/105532784>
-# bionic: ubuntu 18.04; focal: ubuntu 20.04
+# xenial: ubuntu 16.04; bionic: ubuntu 18.04; focal: ubuntu 20.04; jammy: ubuntu 22.04
 
 # dependency and vim
 apt update
